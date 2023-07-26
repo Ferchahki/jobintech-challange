@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picasso-style Table</title>
+  <style>
+    /* Picasso-inspired styles */
+    table {
+      border-collapse: collapse;
+      margin: 50px auto;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid black;
+      text-align: center;
+    }
+
+    th {
+      background-color: #FFC857;
+    }
+
+    tr:nth-child(even) {
+      background-color: #FF7A5A;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #FF9A8B;
+    }
+
+    .painting-image {
+      max-width: 100px;
+      max-height: 100px;
+    }
+
+    .painting-title {
+      font-weight: bold;
+    }
+
+    /* Optional: Add some font styles */
+    body {
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>Painting</th>
+        <th>Title</th>
+        <th>Year</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img class="painting-image" src="picasso_painting_1.jpg" alt="Painting 1"></td>
+        <td class="painting-title">The Weeping Woman</td>
+        <td>1937</td>
+      </tr>
+      <tr>
+        <td><img class="painting-image" src="picasso_painting_2.jpg" alt="Painting 2"></td>
+        <td class="painting-title">Les Demoiselles d'Avignon</td>
+        <td>1907</td>
+      </tr>
+      <tr>
+        <td><img class="painting-image" src="picasso_painting_3.jpg" alt="Painting 3"></td>
+        <td class="painting-title">Guernica</td>
+        <td>1937</td>
+      </tr>
+      <tr>
+        <td><img class="painting-image" src="picasso_painting_4.jpg" alt="Painting 4"></td>
+        <td class="painting-title">The Old Guitarist</td>
+        <td>1903</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>

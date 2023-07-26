@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabke and Form</title>
+    <style>
+        .table,tr,td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            border-color:blue;
+        }
+    </style>
+</head>
+<body>
+        <table style="width: 100%;">
+            <thead>
+            <tr>
+                <th>heading one</th>
+                <th>heading two</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>col 1</td>
+                <td>col 2</td>
+            </tr>
+            </tbody>
+        </table>
+        <table style="width: 100%;" >
+            <tbody>
+            <tr>
+                <td>row 1</td>
+            </tr>
+            <tr>
+                <td>row 2</td>
+            </tr>
+            <tr>
+                <td>row 3</td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <table style="width: 100%;">
+            <thead>
+              <tr>
+                <th>heading 1</th>
+                <th>heading 2</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>col 1</td>
+                <td>col 2</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>summary of col 1</td>
+                <td>summary of col 2</td>
+              </tr>
+            </tfoot>
+        </table>
+        <br>
+        <table style="width: 100%;">
+            <tr>
+              <th>row 1:</th>
+              <td>col 1</td>
+              <td>col 2</td>
+              <td>col 3</td>
+            </tr>
+            <tr>
+              <th>row 2:</th>
+              <td colspan="2">col 1 (will span 2 columns)</td>
+              <td>col 2</td>
+              <td>col 3</td>
+            </tr>
+        </table>
+        <br>
+        <form action="/action_page.php" target="_blank" method="get"  autocomplete="on">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+</body>
+</html>
