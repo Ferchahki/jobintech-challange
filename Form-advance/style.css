@@ -18,12 +18,7 @@ img{
     left: 50%;
     top: 50%;
 }
-.background .shape{
-    height: 200px;
-    width: 200px;
-    position: absolute;
-    border-radius: 50%;
-}
+
 form{
     height: 520px;
     width: 400px;
