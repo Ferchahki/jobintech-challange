@@ -85,10 +85,8 @@ input[type="email"]:invalid {
     margin-top: -36px;
 }
 div{
-
     width: auto;
     position: relative;
-
 }
 #Salutation{
     display: block;
