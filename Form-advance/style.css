@@ -77,6 +77,20 @@ input[type="email"]:valid {
 input[type="email"]:invalid {
     border-color: red;
   }
+#Genre{
+    width: auto;
+    position: absolute;
+    width: auto;
+    margin-left: 100px;
+    margin-top: -36px;
+}
+
+div{
+
+    width: auto;
+    position: relative;
+
+}
 #Salutation{
     display: block;
     height: 50px;
@@ -103,7 +117,7 @@ textarea{
     color: #e5e5e5;
 }
 button{
-    margin-top: 22px;
+    margin-top: 10px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
@@ -135,4 +149,3 @@ button{
 .social i{
   margin-right: 4px;
 }
-
