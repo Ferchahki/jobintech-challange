@@ -11,13 +11,23 @@
     <img src="logo-in.png" alt="logo Jobintech">
     <form>
         <h3>sign-up  </h3>
+        <label for="Salutation"> Salutation
+            <select name="" id="Salutation" >
+                <option value="-Name-">-Choix-</option>
+                <option value="-Name-">-Bonjour-</option>
+                <option value="-Name-">-Bonsoir-</option>
+            </select>
+        </label>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="John" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe" required><br>
         <label for="email">Email :</label>
-        <input type="email" id="lname" name="lname" value="email@gmail.com">
-        <label for="password">New Password</label><input type="password" placeholder="Password" id="password">
-        <label for="">Date of birth</label><input type="date" name="date" id=""><br>
-        <label for="lname">Genre :</label><label for="">Male<input type="radio" id="male" name="male" value="male" checked> </label>
-        <label for=""> Female <input type="radio" id="lname" name="male" value="female"></label>
-        <br><br>
+        <input type="email" id="lname" name="lname" value=""  placeholder="xxx@xxxx.xxx" required>
+        <label for="password">New Password</label><input type="password" placeholder="Password" id="password" required>
+        <label for="">Date of birth</label><input type="date" name="date" id="" required>
+        <label for="">Adresse</label><br>
+          <textarea name="adresse" id="" cols="30" rows="10"></textarea>
         <button>Log In</button>
         <div class="social">
           <div class="go"><i class="fab fa-google"></i>Google</div>

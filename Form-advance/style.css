@@ -1,6 +1,5 @@
 body{
     background-image: url('back-singup.jpg');
-
 }
 img{
     position: relative;
@@ -37,7 +36,7 @@ form{
     backdrop-filter: blur(10px);
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
+    padding: 538px 35px;
 }
 form *{
     font-family: 'Poppins',sans-serif;
@@ -70,11 +69,46 @@ input{
     font-size: 14px;
     font-weight: 300;
 }
+input[type="email"] {
+    height: 50px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 14px;
+  }
+input[type="email"]:valid {
+    border-color: green;
+  }
+input[type="email"]:invalid {
+    border-color: red;
+  }
+#Salutation{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+textarea{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255,255,255,0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
 ::placeholder{
     color: #e5e5e5;
 }
 button{
-    margin-top: 50px;
+    margin-top: 22px;
     width: 100%;
     background-color: #ffffff;
     color: #080710;
@@ -106,3 +140,4 @@ button{
 .social i{
   margin-right: 4px;
 }
+
