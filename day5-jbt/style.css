@@ -1,0 +1,126 @@
+/* Apply a CSS reset to remove default margin and padding on elements */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the entire page */
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  /* Style the fixed navbar */
+  header.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#2cd34f;
+    color: #fff;
+    padding: 10px 20px;
+    display: grid;
+    grid-template-columns: auto 1fr; /* First column for logo, second column for nav */
+    justify-items: center; /* Center the grid items horizontally */
+    align-items: center;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+  }
+  
+  header.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header.navbar nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header.navbar nav li {
+    margin: 0 15px;
+  }
+  
+  header.navbar nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Add padding to the top of the main content to prevent it from being overlapped by the fixed navbar */
+  main {
+    padding-top: 70px; /* Adjust this value based on your header's height */
+  }
+  
+.item4 { grid-area: right; }
+.box{
+padding: 38px;
+padding-left: 38px;
+background-color: #fff;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+max-width: 400px;
+top: -518px;
+right: -1068px;
+width: 339px;
+height: 129px;
+border: 1px solid #fff;
+position: relative;
+padding-left: 32px;
+margin-right: 3px;
+border-left-width: 100px;
+border-color: #2cd34f;
+  }
+/* Style the button */
+button {
+    
+        padding: 10px 20px;
+        font-size: 18px;
+        background-color: #2cd34f;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        top: 183PX;
+        right: 112px;
+        position: absolute;
+  }
+
+.plus{
+  padding: 10px 20px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+font-size: 18px;
+background-color: #2cd34f;
+color: #fff;
+border: none;
+cursor: pointer;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+top: 330PX;
+right: 1404px;
+position: absolute;
+border-radius: 50%;
+}
+
+.moins{
+  padding-top: 10px;
+  padding-right: 26px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  font-size: 18px;
+  background-color: #2cd34f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  top: 390PX;
+  right: 1406px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+
+
+
+
+  
+  
+  
